@@ -32,12 +32,12 @@ export default function RegisterPage() {
           <div className="w-10 h-10 rounded-xl bg-brand-500 flex items-center justify-center">
             <MessageSquare className="w-5 h-5 text-zinc-950" />
           </div>
-          <span className="text-xl font-bold tracking-tight">ChatBot Admin</span>
+          <span className="text-xl font-bold tracking-tight">Nexus Admin</span>
         </div>
 
         <div className="card">
           <h1 className="text-2xl font-bold mb-1">Create account</h1>
-          <p className="text-zinc-400 text-sm mb-6">Set up your multi-tenant chatbot</p>
+          <p className="text-zinc-400 text-sm mb-6">Set up your multi-tenant Nexus</p>
 
           <form onSubmit={submit} className="space-y-4">
             <div>
