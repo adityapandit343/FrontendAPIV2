@@ -6,7 +6,8 @@ export default defineConfig({
   server: {
     port: 5173,
     proxy: {
-      '/api': { target: 'https://apiv2-9hty.onrender.com', changeOrigin: true }
+      // '/api': { target: 'https://apiv2-9hty.onrender.com', changeOrigin: true }
+       '/api': { target: 'http://localhost:8080', changeOrigin: true }
     }
   }
 })
